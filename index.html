@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anirban Chatterjee | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link rel="icon" href="assets/portfolio.png" />
+</head>
+<body>
+<input type="checkbox" id="mode-toggle" hidden />
+<label for="mode-toggle" class="toggle-switch"></label>
+
+<header class="header">
+  <nav class="nav">
+    <div class="logo"><h1>Anirban<span class="accent"> Chatterjee</span></h1></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <div class="hero-content">
+      <h2 class="hero-title">Frontend Developer</h2>
+      <p class="hero-tagline">Crafting digital experiences with code & creativity</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+</header>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="assets/Photo 1.jpeg" alt="Profile Picture" class="profile-img" />
+      </div>
+      <div class="about-text">
+        <p class="about-intro">I'm Anirban, a frontend developer who’s passionate about building seamless and visually appealing web experiences. With a strong foundation in HTML, CSS, and JavaScript, I take pride in crafting interfaces that are not only functional but also aesthetically refined.</p>
+        <p>I specialize in working with modern frameworks like React to bring dynamic and scalable components to life.</p>
+        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while sketching interface ideas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><div class="skill-icon"><i class="fab fa-js-square"></i></div><h3>JavaScript</h3><p>ES6+, TypeScript, Modern JS</p></div>
+      <div class="skill-card"><div class="skill-icon"><i class="fab fa-react"></i></div><h3>React</h3><p>Hooks, Context, Redux</p></div>
+      <div class="skill-card"><div class="skill-icon"><i class="fab fa-vuejs"></i></div><h3>Vue.js</h3><p>Vue 3, Vuex, Nuxt.js</p></div>
+      <div class="skill-card"><div class="skill-icon"><i class="fab fa-css3-alt"></i></div><h3>CSS</h3><p>Sass, Tailwind, Animations</p></div>
+      <div class="skill-card"><div class="skill-icon"><i class="fab fa-node-js"></i></div><h3>Node.js</h3><p>Express, APIs, Full-stack</p></div>
+      <div class="skill-card"><div class="skill-icon"><i class="fas fa-mobile-alt"></i></div><h3>Responsive</h3><p>Mobile-first, PWA</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+  <img src="assets/ShopHub.webp" alt="ShopHub" />
+  <div class="project-content">
+    <h3>ShopHub</h3>
+    <p>A minimalist shopping platform designed for simplicity and speed. Users can browse products, view details, and make purchases through a clean interface. Built using HTML, CSS, and JavaScript.</p>
+    <div class="project-tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+    <a href="https://github.com/Anirban4ru/ShopHub" target="_blank" rel="noopener" class="github-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+
+      <div class="project-card">
+  <img src="assets/concert.avif" alt="SonicSphere" /> 
+  <div class="project-content">
+    <h3>SonicSphere</h3>
+    <p>A sleek concert discovery site that helps users find live events across India. Built with HTML, CSS, and JavaScript, it features genre-based search and ticket flow.</p>
+    <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    <a href="https://github.com/Anirban4ru/SonicSphere" target="_blank" rel="noopener" class="github-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+      <div class="project-card">
+  <img src="assets/Quiz Game.jpg" alt="Quiz Game" />
+  <div class="project-content">
+    <h3>Quiz Game</h3>
+    <p>A fun, browser-based quiz game built with HTML, CSS, and JavaScript. Users answer timed questions across categories with instant feedback and scoring.</p>
+    <div class="project-tech"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+    <a href="https://github.com/Anirban4ru/Quiz-Game" target="_blank" rel="noopener" class="github-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<section id="resume" class="resume">
+  <div class="container center">
+    <h2 class="section-title">Resume</h2>
+    <p class="resume-text">Interested in working together? Download my resume to learn more about my experience and qualifications.</p>
+    <a href="assets\Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div class="contact-details"><h3>Email</h3><p>anirban4ru@gmail.com</p></div></div>
+        <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div class="contact-details"><h3>Phone</h3><p>+91 7365026356</p></div></div>
+        <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-details"><h3>Location</h3><p>Asansol, West Bengal</p></div></div>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Anirban Chatterjee. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/Anirban4ru" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="www.linkedin.com/in/anirban-chatterjee-36476430b" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
